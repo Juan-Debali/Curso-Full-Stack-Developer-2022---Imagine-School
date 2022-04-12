@@ -12,8 +12,8 @@ aside {
 
 body {
     width: 80%;
-    padding-left: 200px;
-    float: left;
+    padding-left: 10%;
+    float: center;
     text-align: justify;
     font-family: 'Times New Roman';
     background-color: rgba(216, 216, 247, 0.733);
@@ -21,12 +21,10 @@ body {
 
 h1 {
     text-align: center;
-     }
+    }
      
 details {
-    width: 80%;
-    padding-left: 200px;
-    float: left;
+    cursor: pointer;
     text-align: justify;
     font-family: 'Times New Roman';
     background-color: rgba(216, 216, 247, 0.733);
