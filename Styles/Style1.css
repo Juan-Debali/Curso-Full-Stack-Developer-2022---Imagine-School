@@ -42,7 +42,7 @@ h1:hover {
 
 h2:hover {
     color: gray;    
-    Box-shadow: gray:
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(111, 111, 111), 0 0 0.2em rgb(197, 197, 197);
     }    
  
     
@@ -59,3 +59,14 @@ details {
     background: rgb(65,64,64);
     background: linear-gradient(90deg, rgba(65,64,64,1) 0%, rgba(88,87,87,1) 20%, rgba(136,136,136,0.527345972568715) 63%);
     }
+.ConteúdoHTML{
+    position: absolute;
+}
+
+.Colunas {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    display:grid;
+    justify-content: space-evenly;     
+}
