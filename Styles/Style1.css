@@ -10,9 +10,10 @@ aside {
     background-color: orange;
      }
 
-     html{
-        background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
-     }
+html{
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(132,132,132,1) 50%, rgba(0,0,0,0.527345972568715) 100%);
+    background-size: auto;
+    }
 
 body {
     width: 80%;
@@ -22,12 +23,17 @@ body {
     text-align: justify;
     inline-size: 2.em;
     font-family: 'Raleway', sans-serif;
-    background-color: rgba(216, 216, 247, 0.733);
      }
 
 h1 {
     text-align: center;
+    text-shadow: 2px 2px 3px black, 0 0 1em rgb(111, 111, 111), 0 0 0.2em rgb(197, 197, 197);
     }
+
+h2{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(111, 111, 111), 0 0 0.2em rgb(197, 197, 197);
+}
      
 h1:hover {
         text-align: center;
@@ -41,13 +47,15 @@ h2:hover {
  
     
 details {
+    color: white;
     cursor: pointer;
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 2%;
     padding-bottom: 2%;
     text-align: justify;
-    inline-size: 4.em;
+    inset-inline: 1.5 em;
     font-family: 'Raleway', sans-serif;
-    background-color: rgba(216, 216, 247, 0.307);
+    background: rgb(65,64,64);
+    background: linear-gradient(90deg, rgba(65,64,64,1) 0%, rgba(88,87,87,1) 20%, rgba(136,136,136,0.527345972568715) 63%);
     }
