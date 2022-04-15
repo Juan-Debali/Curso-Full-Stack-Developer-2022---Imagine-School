@@ -1,5 +1,5 @@
 aside {
-    width: 50%;
+    width: 80%;
     padding: center;
     padding-left: 20px;
     padding-top: 10px;
@@ -8,12 +8,17 @@ aside {
     margin-left: 20px;
     float: right;
     font-style: italic;
-    background-color: orange;
-     }
+    background: rgba( 245, 166, 35, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
 
 html{
-    background-image: url("https://i.picsum.photos/id/1019/5472/3648.jpg?hmac=2mFzeV1mPbDvR0WmuOWSiW61mf9DDEVPDL0RVvg1HPs");
-    background-size: 100%;
+    background: rgb(65,64,64);
+    background: linear-gradient(90deg, rgba(65,64,64,1) 0%, rgba(88,87,87,1) 20%, rgba(136,136,136,0.527345972568715) 63%);
     }
 
 body {
@@ -57,12 +62,8 @@ details {
     text-align: justify;
     font-family: 'Raleway', sans-serif;
     background: rgba( 255, 255, 255, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 
-  }
+    }
 
 .details.HTML{
     position: absolute;
