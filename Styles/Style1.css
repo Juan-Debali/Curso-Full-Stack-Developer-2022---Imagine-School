@@ -8,13 +8,18 @@ aside {
     margin-left: 20px;
     float: right;
     font-style: italic;
-    background-color: orange;
+    background: rgba( 245, 166, 35, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba(135, 83, 31, 0.37);
+    backdrop-filter: blur( 0.5px );
+    -webkit-backdrop-filter: blur( 0.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
      }
 
 html{
-    background-image: url("https://i.picsum.photos/id/1019/5472/3648.jpg?hmac=2mFzeV1mPbDvR0WmuOWSiW61mf9DDEVPDL0RVvg1HPs");
-    background-size: 100%;
-    }
+    color: white;
+    background-image: url("https://thumbs.dreamstime.com/b/teste-padr%C3%A3o-sem-emenda-placa-de-circuito-do-computador-43532477.jpg")
+}
 
 body {
     width: 80%;
@@ -28,24 +33,26 @@ body {
 
 h1 {
     color:white;
+    font-size: 64px;
     text-align: center;
-    text-shadow: 2px 2px 3px black, 0 0 1em rgb(111, 111, 111), 0 0 0.2em rgb(197, 197, 197);
+    text-shadow: 3px 3px 4px black, 0 0 1em rgb(111, 111, 111), 0 0 0.2em rgb(197, 197, 197);
     }
 
 h2{
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 2px black, 0 0 1em rgb(111, 111, 111), 0 0 0.2em rgb(197, 197, 197);
+    color: white;
+    text-shadow: 3px 3px 4px black, 0 0 1em rgb(111, 111, 111), 0 0 0.2em rgb(197, 197, 197);
 }
      
 h1:hover {
         text-align: center;
-        color: gray;    
+        color: white;
+        text-shadow: 3px 3px 4px rgb(255, 255, 255), 0 0 1em rgb(111, 111, 111), 0 0 0.2em rgb(0, 0, 0); 
     }
 
 h2:hover {
-    color: gray;    
-    text-shadow: 1px 1px 2px black, 0 0 1em rgb(111, 111, 111), 0 0 0.2em rgb(197, 197, 197);
-    }    
+    color: white;   
+    text-shadow: 3px 3px 4px rgb(255, 255, 255), 0 0 1em rgb(111, 111, 111), 0 0 0.2em rgb(0, 0, 0); 
+     }    
  
     
 details {
