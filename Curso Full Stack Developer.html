@@ -20,125 +20,137 @@
     <h2><abbr title="Hypertext Markup Language">HTML</abbr></h2>
   </summary>
 
-  <details>
-    <div>
-      <div class="Colunas">
-    <p>É uma linguagem para identificar por meio de etiquetas os elementos de uma
-      página web. Com ela é configurada a estrutura dos elementos de uma página,
-      como: Título (Title), Cabeçalho (Head), Corpo (body). Quando são atribuidas etiquetas a um texto cada uma dessas
-      partes se torna um objeto. Com isso passam
-      a ser estruturados em um <i>"Documento Object Model"</i>(<abbr title="Document Object Model">DOM</abbr>)
-      (<a href="https://tableless.com.br/entendendo-o-dom-document-object-model/" rel="external" target="_blank">clique
-        aqui para mais informações sobre o <abbr title="Document Object Model">DOM</abbr></a>).
+  <details class="HTML">
+    <div class="ConteúdoHTML">
+      <div class="Coluna1">
 
-    <aside>
-      <p>Quando o texto é estruturado em varios objetos seguindo a lógica do <abbr
-          title="Document Object Model">DOM</abbr>, ele se torna passível de ser trabalhado com outras linguagens
-        voltadas aos objetos como JavaScript, por exemplo.
-      </p>
-    </aside>
+        <p>
+          É uma linguagem para identificar por meio de etiquetas os elementos de uma
+          página web. Com ela é configurada a estrutura dos elementos de uma página,
+          como: Título (Title), Cabeçalho (Head), Corpo (body). Quando são atribuidas etiquetas a um texto cada uma
+          dessas
+          partes se torna um objeto. Com isso passam a ser estruturados em um <i>"Documento Object Model"</i>(<abbr
+            title="Document Object Model">DOM</abbr>)
+          (<a href="https://tableless.com.br/entendendo-o-dom-document-object-model/" rel="external"
+            target="_blank">clique
+            aqui para mais informações sobre o <abbr title="Document Object Model">DOM</abbr></a>).
+        </p>
 
-    Para criar um <abbr title="Hypertext Markup Language">HTML</abbr>
-    recomenda-se criar uma pasta para poder inserir o conteúdo criado e as alterações armazenadas em sistemas de
-    versionamento de códigos (Version Control System - VCS), tal como o Git. Os elemetos do
-    <abbr title="Hypertext Markup Language">HTML</abbr>
-    são apresentados com uma tag inicial e uma tag final. Existem também elementos
-    <abbr title="Hypertext Markup Language">HTML</abbr> que não possuem ambos os comandos
-    de inicio e fim, possuem apenas um único comando. Esses são chamados de eleme
-    ntos vazios. Para que as linhas do código não fquem muito longas vc pode selecionar o trecho onde iso acontece no
-    VSC Studio e com o botão direito escolher formatar o documento.</p>
+        <aside>
+          Quando o texto é estruturado em varios objetos seguindo a lógica do <abbr
+            title="Document Object Model">DOM</abbr>, ele se torna passível de ser trabalhado com outras linguagens
+          voltadas aos objetos como JavaScript, por exemplo.
+        </aside>
 
-    <h3>Tags básicas do <abbr title="Hypertext Markup Language">HTML</abbr> </h3>
+        <p>
+          Para criar um <abbr title="Hypertext Markup Language">HTML</abbr>
+          recomenda-se criar uma pasta para poder inserir o conteúdo criado e as alterações armazenadas em sistemas de
+          versionamento de códigos (Version Control System - VCS), tal como o Git. Os elemetos do
+          <abbr title="Hypertext Markup Language">HTML</abbr>
+          são apresentados com uma tag inicial e uma tag final. Existem também elementos
+          <abbr title="Hypertext Markup Language">HTML</abbr> que não possuem ambos os comandos
+          de inicio e fim, possuem apenas um único comando. Esses são chamados de elementos vazios. Para que as linhas
+          do código não fquem muito longas vc pode selecionar o trecho onde iso acontece no
+          VSC Studio e com o botão direito escolher formatar o documento.
+        </p>
 
-    <p>As tags básicas gerais do <abbr title="Hypertext Markup Language">HTML</abbr> são:
-    <ol>
-      <li>"!doctype";</li>
-      <li>"html";</li>
-      <li>"head";</li>
-      <li>"body";</li>
-      <li>"h1", "h2", "h.."; e </li>
-      <li>"p"</li>
-    </ol>
-    </p>
+        <h3>Tags básicas do <abbr title="Hypertext Markup Language">HTML</abbr> </h3>
 
-    <p>Todas as tags apresentam atributos para definições próprias e para
-      atribuir alguma caracteristica de identificação ou de estilo.
-      Os navegadores modernos interpretam já as tags com estruturas já
-      pré-estabelecidos. Porém, essa forma de estruturar
-      o <abbr title="Hypertext Markup Language">HTML</abbr> pode não
-      ser aquela desejada pelo desenvolvedor. Para evitar armadilhas o programador
-      pode optar por fazer um trabalho mais minusioso, e definir padrões que ele
-      deseja (idioma,tipos de caracteres que ira utilizar, etc.). A tag
-      "!doctype" determina qual é a linguagem na qual está estruturado um documento.
-      O "html" determina o espaço dentro do qual está escrito o html. Dentro deste
-      tag é possível definir atribuos como: a) <b>a linguagem da página</b> e,
-      com isso, as ferramentas de busca poderão dar preferencia para um público
-      que emprega esse idioma; b) <b>elementos de estilo CSS</b>. Dentro da tag
-      "head", ou cabeçalho podem ser definidos aspectos como: o conteúdo da aba
-      de navegação com o uso da tag "title", e a forma de representação de
-      caractéres (no caso do portugues recomenda-se o uso do UTF-8 que inclui
-      particularidasse como o "til" e a cedilha") com o uso da tag "meta".
-      Além disso, empregando a tag meta podem ser definidos outros atributos da
-      página como compatibilidade com navegadores, dispositivos, responsibidade.
-    </p>
-      </div>  
+        <p>
+          As tags básicas gerais do <abbr title="Hypertext Markup Language">HTML</abbr> são:
+        <ol>
+          <li>"!doctype";</li>
+          <li>"html";</li>
+          <li>"head";</li>
+          <li>"body";</li>
+          <li>"h1", "h2", "h.."; e </li>
+          <li>"p"</li>
+        </ol>
+        </p>
 
-    <div class="Colunas">  
-    <h3>Outras Tags</h3>
-    <p>
-    <ul>
-      <li> "Imagem" - é um elemento vazio (não tem tag de encerramento).(arquivo do
-        próprio PC ou da internet). Existem sites com imagens que podem ser
-        utilizadas livremente como: Lorem Picsum (picums.photos).</li>
-      <li> "Details" pose ser empregada para criar um efeito "Accordion" ou "Sanfona". Usando a tag "Summary" no título
-        e "Details" no conteúdo, o conteúdo fica escondido e soó é exibido clicando na mensagem "Saiba mais"</li>
-    </ul>
-    </p>
+        <p>
+          Todas as tags apresentam atributos para definições próprias e para
+          atribuir alguma caracteristica de identificação ou de estilo.
+          Os navegadores modernos interpretam já as tags com estruturas já
+          pré-estabelecidos. Porém, essa forma de estruturar
+          o <abbr title="Hypertext Markup Language">HTML</abbr> pode não
+          ser aquela desejada pelo desenvolvedor. Para evitar armadilhas o programador
+          pode optar por fazer um trabalho mais minusioso, e definir padrões que ele
+          deseja (idioma,tipos de caracteres que ira utilizar, etc.). A tag
+          "!doctype" determina qual é a linguagem na qual está estruturado um documento.
+          O "html" determina o espaço dentro do qual está escrito o html. Dentro deste
+          tag é possível definir atribuos como: a) <b>a linguagem da página</b> e,
+          com isso, as ferramentas de busca poderão dar preferencia para um público
+          que emprega esse idioma; b) <b>elementos de estilo CSS</b>. Dentro da tag
+          "head", ou cabeçalho podem ser definidos aspectos como: o conteúdo da aba
+          de navegação com o uso da tag "title", e a forma de representação de
+          caractéres (no caso do portugues recomenda-se o uso do UTF-8 que inclui
+          particularidasse como o "til" e a cedilha") com o uso da tag "meta".
+          Além disso, empregando a tag meta podem ser definidos outros atributos da
+          página como compatibilidade com navegadores, dispositivos, responsibidade.
+        </p>
+      </div>
 
-    <h3>Ferramentas para montar um <abbr title="Hypertext Markup Language">HTML</abbr>:</h3>
-    <p>
-      Qualquer editor de texto que permita salvar arquivos em <abbr title="Hypertext Markup Language">HTML</abbr>
-      (bloco de notas, word). <br>
-      Para isso é nessessário nomear o arquivo salvo com ".html" ou ".htm"
-      e definir a codificação como <abbr title="UCS Transformation Format 8">UTF-8</abbr> (que é a codificação
-      preferida
-      para arquivos HTML).
-    </p>
+      <div class="Coluna2">
+        <h3>Outras Tags</h3>
+        <p>
+        <ul>
+          <li> "Imagem" - é um elemento vazio (não tem tag de encerramento).(arquivo do
+            próprio PC ou da internet). Existem sites com imagens que podem ser
+            utilizadas livremente como: Lorem Picsum (picums.photos).</li>
+          <li> "Details" pose ser empregada para criar um efeito "Accordion" ou "Sanfona". Usando a tag "Summary" no
+            título
+            e "Details" no conteúdo, o conteúdo fica escondido e soó é exibido clicando na mensagem "Saiba mais"</li>
+        </ul>
+        </p>
 
-    <h3>Editores de texto:</h3>
-    <ul>
-      <li><a href="https://atom.io/" rel="external" target="_blank"><b>Atom</b></a></li>
-      <li><a href="https://www.sublimetext.com/" rel="external" target="_blank"><b>Sublimetext</b></a><br>
-      <li><a href="https://code.visualstudio.com/" rel="external" target="_blank"><b>Visual Studio code
-            (VSCode)</b></a>
-        (recomendado) - Plugins diversos</li>
-      <li><a href=https://notepad-plus-plus.org/ re="external" target="_blank"><b>Notepad</b></a> - Bloco de notas com
-        alguns recursos voltados para o <abbr title="Hypertext Markup Language">HTML</abbr></li>
-    </ul>
+        <h3>Ferramentas para montar um <abbr title="Hypertext Markup Language">HTML</abbr>:</h3>
 
-    <h3>Páginas com conteúdo sobre HTML</h3>
+        <p>
+          Qualquer editor de texto que permita salvar arquivos em <abbr title="Hypertext Markup Language">HTML</abbr>
+          (bloco de notas, word). <br>
+          Para isso é nessessário nomear o arquivo salvo com ".html" ou ".htm"
+          e definir a codificação como <abbr title="UCS Transformation Format 8">UTF-8</abbr> (que é a codificação
+          preferida para arquivos HTML).
+        </p>
 
-    <p>
-      <a href="https://www.w3schools.com" rel="external" target="_blank">W3 Schools</a>
-    </p>
+        <h3>Editores de texto:</h3>
+        <ul>
+          <li><a href="https://atom.io/" rel="external" target="_blank"><b>Atom</b></a></li>
+          <li><a href="https://www.sublimetext.com/" rel="external" target="_blank"><b>Sublimetext</b></a><br>
+          <li><a href="https://code.visualstudio.com/" rel="external" target="_blank"><b>Visual Studio code
+                (VSCode)</b></a> (recomendado) - Plugins diversos</li>
+          <li><a href=https://notepad-plus-plus.org/ re="external" target="_blank"><b>Notepad</b></a> - Bloco de notas
+            com
+            alguns recursos voltados para o <abbr title="Hypertext Markup Language">HTML</abbr></li>
+        </ul>
 
-    <p>W3 Schools é uma entidade que organiza e padroniza diversas linguagens de
-      rede. Nele também é possível aprender sobre cada uma das linguagens e fazer
-      exercicios e cursos. Como existe um grande número de códigos este site é
-      uma ferramenta de consulta de uso constante. Ele corresponde a uma ISO de
-      etiquetas de comandos de varias linguagens. No caso da
-      <abbr title="Hypertext Markup Language">HTML</abbr> é possivel fazer uma
-      consulta a todas as tags no menú lateral esquerdo na seção:
-      <b><abbr title="Hypertext Markup Language">HTML</abbr> References - Tag List</b> podem ser vistas e testadas
-      todas
-      as tags em ordem alfabética.
-    </p>
-    <h3>Tutoriais sobre HTML</h3>
-    <iframe width="400" height="300" src="https://www.youtube.com/embed/FNGoExJlLQY" title="YouTube video player"
-      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
+        <h3>Páginas com conteúdo sobre HTML</h3>
+
+        <p>
+          <a href="https://www.w3schools.com" rel="external" target="_blank">W3 Schools</a>
+        </p>
+
+        <p>
+          W3 Schools é uma entidade que organiza e padroniza diversas linguagens de
+          rede. Nele também é possível aprender sobre cada uma das linguagens e fazer
+          exercicios e cursos. Como existe um grande número de códigos este site é
+          uma ferramenta de consulta de uso constante. Ele corresponde a uma ISO de
+          etiquetas de comandos de varias linguagens. No caso da
+          <abbr title="Hypertext Markup Language">HTML</abbr> é possivel fazer uma
+          consulta a todas as tags no menú lateral esquerdo na seção:
+          <b><abbr title="Hypertext Markup Language">HTML</abbr> References - Tag List</b> podem ser vistas e testadas
+          todas as tags em ordem alfabética.
+        </p>
+
+        <h3>Tutoriais sobre HTML</h3>
+
+        <iframe width="400" height="300" src="https://www.youtube.com/embed/FNGoExJlLQY" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
     </div>
-    </div>  
   </details>
   <hr>
 
@@ -258,15 +270,17 @@
       git remote add origin https://github.com/Juan-Debali/Curso-Full-Stack-Developer.git<br>
       git branch -M main<br>
       git push -u origin main
-    </p><h3>Tutoriais sobre GIT</h3>
+    </p>
+    <h3>Tutoriais sobre GIT</h3>
     <iframe width="400" height="300" src="https://www.youtube.com/embed/D-QIbgPPRBQ" title="YouTube video player"
       frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen></iframe>
-      <p>
-    <a href="https://vscode.github.com/" rel="external" target="_blank">GitHub and Visual Studio Code</a> - Tutoriais de
-    como usar o Git com o VSC.
-      </p>
-    </details>
+    <p>
+      <a href="https://vscode.github.com/" rel="external" target="_blank">GitHub and Visual Studio Code</a> - Tutoriais
+      de
+      como usar o Git com o VSC.
+    </p>
+  </details>
   <Hr>
   <summary>
     <H2><abbr title="Cascate Style Sheet">CSS</abbr></H2>
@@ -300,9 +314,11 @@
     <H3>Páginas com ferramentas e dicas para CSS</H3>
 
     <ul>
-      <li><a href="https://g.co/kgs/cbT9FX" rel="external" target="_blank">Seletor de cores do Google</a></li>
+      <li> <a href="https://g.co/kgs/cbT9FX" rel="external" target="_blank">Seletor de cores do Google</a></li>
       <li> <a href="https://cssgradient.io/" rel="external" target="_blank">CSS Gradient</a>- Permite criar gradientes
         de cores para a tela de fundo</li>
+      <li> <a href="https://hype4.academy/tools/glassmorphism-generator" rel="external" target="_blank">Hype4 academy -
+          Glassmorphism</a> - Gerador de efeito vidro fosco</li>
     </ul>
 
     <h3>Tutoriais sobre CSS</h3>
