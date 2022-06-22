@@ -11,9 +11,10 @@
     rel="stylesheet">
 
 </head>
+
 <header>
   <h1>CURSO FULL STACK DEVELOPER</h1>
-</header>  
+</header>
 
 <body>
 
@@ -26,19 +27,19 @@
   <details>
     <div class="ConteúdoHTML">
       <div class="Coluna1">
-        
+
         <h3>Descrição</h3>
         <p>
           É uma linguagem para identificar por meio de etiquetas os elementos de uma
           página web. Com ela é configurada a estrutura dos elementos de uma página,
           como: Título (Title), Cabeçalho (Head), Corpo (body). Quando são atribuidas etiquetas a um texto cada uma
-          dessas
-          partes se torna um objeto. Com isso passam a ser estruturados em um <i>"Documento Object Model"</i>(<abbr
-            title="Document Object Model">DOM</abbr>)
+          dessas partes se torna um objeto. Com isso passam a ser estruturados em um <i>"Documento Object
+            Model"</i>(<abbr title="Document Object Model">DOM</abbr>)
           (<a href="https://tableless.com.br/entendendo-o-dom-document-object-model/" rel="external"
             target="_blank">clique
             aqui para mais informações sobre o <abbr title="Document Object Model">DOM</abbr></a>).
         </p>
+
 
         <aside>
           Quando o texto é estruturado em varios objetos seguindo a lógica do <abbr
@@ -49,12 +50,26 @@
         <p>
           Para criar um <abbr title="Hypertext Markup Language">HTML</abbr>
           recomenda-se criar uma pasta para poder inserir o conteúdo criado e as alterações armazenadas em sistemas de
-          versionamento de códigos (Version Control System - VCS), tal como o Git. Os elemetos do
-          <abbr title="Hypertext Markup Language">HTML</abbr>
-          são apresentados com uma tag inicial e uma tag final. Existem também elementos
+          versionamento de códigos (Version Control System - VCS), tal como o Git.</p>
+        <p>É convencionado nomear o arquivo
+          <abbr title="Hypertext Markup Language">HTML</abbr> como "Index" por que é um padrão de busca para leitura
+          deste tipo de arquivo. Subentende-se que qualquer página tem o "Index" e quando é nomeado desta foram fica
+          escondida esta expressão no campo do navegador. Até pode ser usado outro nome e se for colocado ira aparecer
+          por extenso no navegador, mas é comum ser denominado de "Index".
+        </p>
+        <p>Na criação de um novo <abbr title="Hypertext Markup Language">HTML</abbr> uma dica é usar o simbolo de "!" e
+          a tecla Tab. Os elemetos do <abbr title="Hypertext Markup Language">HTML</abbr>
+          são apresentados com uma tag inicial e uma tag final. Recomenda-se que o conteúdo das tags seja disposto com
+          indentação (não é obrigatório para <abbr title="Hypertext Markup Language">HTML</abbr>, mas outras linguagens
+          exigem a indentação) para facilitar a leitura (Atalho SHIT+ALT+F). A indentação consiste em colocar o conteúdo
+          deslocado
+          para a direita com tabs para que o leitor consiga distinguir entre o que foi inserido em cada elemento do
+          <abbr title="Hypertext Markup Language">HTML</abbr>, e para casoso em que há subdivisões de sessões (elementos
+          inseridos dentro de outros elementos).
+        <p>Existem também elementos
           <abbr title="Hypertext Markup Language">HTML</abbr> que não possuem ambos os comandos
           de inicio e fim, possuem apenas um único comando. Esses são chamados de elementos vazios. Para que as linhas
-          do código não fquem muito longas vc pode selecionar o trecho onde iso acontece no
+          do código não fiquem muito longas pode ser selecionado o trecho onde isso acontece no
           VSC Studio e com o botão direito escolher formatar o documento.
         </p>
 
@@ -67,8 +82,9 @@
           <li>"html";</li>
           <li>"head";</li>
           <li>"body";</li>
-          <li>"h1", "h2", "h.."; e </li>
+          <li>"h1"*, "h2", "h.."; e </li>
           <li>"p"</li>
+          * - O "H1" trata do titulo geral da página, recomnda-se que cada página tenha apenas um titulo.
         </ol>
         </p>
 
@@ -216,8 +232,8 @@
       <li>Comando "Clear" (atalho: Ctrl+L): Limpa todos os comandos inseridos no terminal.</li>
       <li>Comando "cd" (Change Directory): Acessar um diretório do computador.</li>
       <li>Comando "cd .." (Change Directory): Volta para o diretório anterior.</li>
-      <li>Comando "git init" = Cria versão original ou mestre de um arquivo. </li>
-      <li>Na pasta é possivel ver esta versão visualizando os arquivos ocultos da mesma.</li>
+      <li>Comando "git init" = Cria versão original ou mestre de um arquivo (Na pasta é possivel ver esta versão
+        visualizando os arquivos ocultos da mesma).</li>
       <li>Comando "git add" = adiciona uma versão com alterações da versão mestre.</li>
       <li>Pode ser informado o arquivo por extenso ou pode ser adicionado tudo com "."</li>
       <li>Comando "git status" = apresenta todas as versões do git e sobre qual estamos
@@ -331,6 +347,59 @@
       allowfullscreen></iframe>
     </p>
   </details>
+  <Hr>
+  <summary>
+    <H2>JavaScript</H2>
+  </summary>
+  <details>
+    <p>É uma linguagem simples que cria roteiros em uma página. Atribui interatividade para elementos.
+      Com ela é possível manipular os objetos de uma página e criar novos elementos a partir de uma interação do
+      usuário.
+      Ela é interpretada e orientada a objetos utilizado funções de "primeira classe".
+    </p>
+    <aside>Funções de primeira classe significa que a linguagem permite que funções sejam argumentos de outras funções,
+      e que seus resultados passem a ser valores para outras funções. O resultado final são variaveis ou dados alocados
+      em estruturas de dados. O nome atribuido à função não possuem nenhum status especial, são considerados apenas cp,p
+      variaveis com um tipo de função. Para implementar funções podem ocorrer empecilhos quando são inseridas variaveis
+      que não são locais da pagina que está sendo desenvolvida.
+      E suma, funções de primeira classe permitem tres coisas: 1) Que as funções possam agir como vairaves; 2) Que as
+      funções possam servir como argumentos para outras funções; e 3) Que funções sejam o retorno de outras funções.
+    </aside>
+    <p> Para entender Javascript é necessário conhecer uma série de conceitos relacionados com funções. Alguns deles
+      são:
+    <ul>
+      <li>Declaração de função (Function statement): É uma função que foi definida e pode ser empregada futuramente</li>
+      <li>Expressão da função (Function expression): Após a criação de uma função e atribuida a uma variável para poder
+        ser denominada pelo nome dessa variavel. Se não for definida não pode ser executada.</li>
+      <li>Função anonima (Anonymous function): É uma função na qual não há necessidade de definir um nome para a mesma,
+        ela pode ser atribudia a uma variável</li>
+      <li>Nome da função expressão (Named function expression): Função comum com um nome atribuido a uma variável</li>
+      <li>Parametros:</li>
+      <li>Argumentos:</li>
+      <li>Funções de primeira classe:</li>
+      <li>Função de seta ou direção (Arrow functions)</li>
+      <li>Escopo e cadeia de escopo (Scope e Scopechain): REfere-se à acessibilidade e visibilidade de variaveis. Trata
+        sobre quais partes do progrma tem acesso a uma variavel ou em qual lugar essa variavel pode ser observada. Ao
+        ser atribuido um escopo o programa conta com uma medida de segurança por permitir que as variaveis possam ser
+        acessadas a partir de apenas uma parte do programa. Evita modificações não esperadas para as vaiareis e outras
+        partes do programa. O escopo evita que ocorra a colição do espaço do nome. Isto é, podem ser usadas as mesmas
+        variáveis para varios escopos. Os escopos podem ser divididos em três tipos: 1) Escopo global (qulaquer variavel
+        que não estiver dentro de uma função ou bloco, esta dentro do escopo global. As variaveis podem ser acessadas em
+        qualquer parte do programa); 2) Escopo local ou escopo de função (variaveis s~]ap declaradas dentro da fnção.
+        Elas só podem ser acessadas de dentro da função e não podem ser acessadas fora do código); 3) Escopo de bloco
+        (com os tipos de variaveis let e const é possivel que as mesmas possam ser atribuidas a uma exressão dentro de
+        chavões proximas "{...}"). Outros conceitos são o aninhamento do escopo (que é quando um escopo é inserido
+        dentro de um outro) permintindo a junção dos 3 tipos de escopos (global, foco e bloco) e o escopo léxico (também
+        conhecido como escopo estático) significa que o escopo será determinado pelo tempo de interpretação e compilação
+        dod dados no lugar de ocorrer pela ordem de execução (função "printNumber ()" e "console.log(number)"). Na
+        cadeia de escopo quando uma variavel é usada no JavaScipt, o motor vai tentar localizar as variaeis dentro do
+        escopo. Caso não localizr a variavel ira tentar localiza-la em outro escopo mais externo e assim por diante até
+        localizar a variavel em um escopo global. Resumindo, escopo pe a área na qual a variavel é visivel e acessivel
+      </li>
+    </ul>
+    </p>
+  </details>
+
 
 </body>
 
