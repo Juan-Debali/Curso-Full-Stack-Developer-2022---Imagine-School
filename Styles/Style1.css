@@ -1,3 +1,36 @@
+:root{
+    display: grid;
+    place-items: center;    
+}
+
+html {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(128,182,198,1) 100%);
+    display: grid;
+    place-items: center;
+}
+
+body {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    float: center;
+    text-align: center;
+    inline-size: 2.em;
+    font-family: 'Raleway', sans-serif;
+}
+header {
+    width: 73vh;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 100px;
+    color: rgb(57, 57, 57);
+    background-image: url("https://thumbs.dreamstime.com/b/teste-padr%C3%A3o-sem-emenda-placa-de-circuito-do-computador-43532477.jpg");
+    border-radius: 10px;
+    display:grid;
+    place-items: center;
+}
+
 aside {
     width: 50%;
     padding: center;
@@ -16,36 +49,9 @@ aside {
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-html {
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(128,182,198,1) 100%);
-}
-
-
-header {
-    width: 100%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    font-size: 25px;
-    height: 100px;
-    color: rgb(57, 57, 57);
-    background-image: url("https://thumbs.dreamstime.com/b/teste-padr%C3%A3o-sem-emenda-placa-de-circuito-do-computador-43532477.jpg");
-    border-radius: 10px;
-}
-
-body {
-    width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
-    float: center;
-    text-align: justify;
-    inline-size: 2.em;
-    font-family: 'Raleway', sans-serif;
-}
-
 h1 {
     color: white;
-    text-align: center;
+    text-size-adjust: vh50;
     text-shadow: 3px 3px 4px black, 0 0 1em rgb(111, 111, 111), 0 0 0.2em rgb(197, 197, 197);
 }
 
@@ -71,10 +77,14 @@ details {
     padding-right: 2%;
     padding-top: 2%;
     padding-bottom: 2%;
+    width: 70vh;
+    text: 75ch 120ch;
+    display: grid;
+    place-items: center;
     text-align: justify;
     font-family: 'Raleway', sans-serif;
     background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    box-shadow: 0 8px 50px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border-radius: 10px;
